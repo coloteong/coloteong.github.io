@@ -40,7 +40,7 @@ A Levels - 5 Distinctions
 
 ### More Information
 
-You can take a look at my [resume](https://raw.githubusercontent.com/coloteong/coloteong.github.io/master/static/resume.pdf) for more information.
+You can take a look at my [resume](https://raw.githubusercontent.com/coloteong/coloteong.github.io/master/static/resume.pdf){:target="_blank"} for more information.
 
 
 ### Contact me
