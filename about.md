@@ -12,9 +12,9 @@ permalink: /about/
 
 Bachelor of Science (Hons), Data Science and Artificial Intelligence 
 
-Nanyang Scholar
+* Nanyang Scholar
 
-Undergraduate Research Experience on Campus (URECA)
+* Undergraduate Research Experience on Campus (URECA)
 
 
 
@@ -25,13 +25,13 @@ Integrated Programme
 
 A Levels - 5 Distinctions
     
-H2 Economics
+* H2 Economics
     
-H2 English Language and Linguistics
+* H2 English Language and Linguistics
     
-H2 Chemistry
+* H2 Chemistry
     
-H2 Mathematics
+* H2 Mathematics
 
 
 
