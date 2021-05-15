@@ -18,6 +18,7 @@ Bachelor of Science (Hons), Data Science and Artificial Intelligence
 
 
 
+
 #### January 2013 - November 2018
 ##### Dunman High School
     
@@ -35,10 +36,11 @@ A Levels - 5 Distinctions
 
 
 
+
+
 ### More Information
 
-A place to include any other types of information that you'd like to include about yourself.
-
+You can take a look at my [resume](https://raw.githubusercontent.com/coloteong/coloteong.github.io/master/static/resume.pdf) for more information.
 
 
 ### Contact me
