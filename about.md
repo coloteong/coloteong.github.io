@@ -6,6 +6,7 @@ permalink: /about/
 
 ### Academics
 
+
 #### August 2019 - Current
 ##### Nanyang Technological University
 
@@ -14,6 +15,8 @@ Bachelor of Science (Hons), Data Science and Artificial Intelligence
 Nanyang Scholar
 
 Undergraduate Research Experience on Campus (URECA)
+
+
 
 #### January 2013 - November 2018
 ##### Dunman High School
@@ -30,9 +33,13 @@ H2 Chemistry
     
 H2 Mathematics
 
+
+
 ### More Information
 
 A place to include any other types of information that you'd like to include about yourself.
+
+
 
 ### Contact me
 
