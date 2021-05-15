@@ -4,35 +4,32 @@ title: About
 permalink: /about/
 ---
 
-### Academics
+## Academics ##
 
 
-#### August 2019 - Current
-##### Nanyang Technological University
-
-Bachelor of Science (Hons), Data Science and Artificial Intelligence 
-
-* Nanyang Scholar
-
-* Undergraduate Research Experience on Campus (URECA)
+> August 2019 - Current
+>> Nanyang Technological University
+>> Bachelor of Science (Hons), Data Science and Artificial Intelligence 
+>>>* Nanyang Scholar
+>>>* Undergraduate Research Experience on Campus (URECA)
 
 
 
 
-#### January 2013 - November 2018
-##### Dunman High School
+> January 2013 - November 2018
+>> Dunman High School
     
-Integrated Programme 
+>>>Integrated Programme 
 
-A Levels - 5 Distinctions
+>>>A Levels - 5 Distinctions
     
-* H2 Economics
+>>>* H2 Economics
     
-* H2 English Language and Linguistics
+>>>* H2 English Language and Linguistics
     
-* H2 Chemistry
+>>>* H2 Chemistry
     
-* H2 Mathematics
+>>>* H2 Mathematics
 
 
 
