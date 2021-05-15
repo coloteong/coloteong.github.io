@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Hi! Welcome to my website 😊
+title: Hi! Welcome To My Website 😊
 ---
 
 Hello, I'm Claudia. I'm currently starting my 3rd year in Nanyang Technological University, and I'm studying Data Science and Artificial Intelligence. My interest lies in Natural Language Processing (NLP) in the field of AI. 

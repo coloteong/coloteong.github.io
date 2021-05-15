@@ -4,7 +4,22 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+Academics:
+
+August 2019 - Current
+    Nanyang Technological University
+        Bachelor of Science (Hons), Data Science and Artificial Intelligence 
+            Nanyang Scholar
+            Undergraduate Research Experience on Campus (URECA)
+
+January 2013 - November 2018
+    Dunman High School
+    Integrated Programme 
+        A Levels - 5 Distinctions
+            H2 Economics
+            H2 English Language and Linguistics
+            H2 Chemistry
+            H2 Mathematics
 
 ### More Information
 
@@ -12,4 +27,5 @@ A place to include any other types of information that you'd like to include abo
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[clau0011@e.ntu.edu.sg](mailto:clau0011@e.ntu.edu.sg)
+[coloteong20@gmail.com](mailto:coloteong20@gmail.com)
