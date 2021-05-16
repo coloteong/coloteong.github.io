@@ -4,7 +4,7 @@ title: Experience
 permalink: /experience/
 ---
 <head>
-<link rel=“stylesheet” type=“text/css” href=“experiencestyle.css” />
+still in progress...
 </head>
 
 <div class="container">
