@@ -3,62 +3,80 @@ layout: page
 title: Experience
 permalink: /experience/
 ---
-
+<head>
 <link rel=“stylesheet” type=“text/css” href=“experiencestyle.css” />
-<div class="container">
+</head>
 
-  <div class="box">
-    <div class="container-3">
-      <span class="icon"><i class="fa fa-search"></i></span>
-      <input type="search" id="search" placeholder="Search..." />
+<h2>A clean timeline design, with animated links</h2>
+<div class="timeline"> 
+  <div class="timeline__event  animated fadeInUp delay-3s timeline__event--type1">
+    <div class="timeline__event__icon ">
+      <i class="lni-cake"></i>
+
+    </div>
+    <div class="timeline__event__date">
+      20-08-2019
+    </div>
+    <div class="timeline__event__content ">
+      <div class="timeline__event__title">
+        Birthday
+      </div>
+      <div class="timeline__event__description">
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel, nam! Nam eveniet ut aliquam ab asperiores, accusamus iure veniam corporis incidunt reprehenderit accusantium id aut architecto harum quidem dolorem in!</p>
+      </div>
+    </div>
+  </div>
+  <div class="timeline__event animated fadeInUp delay-2s timeline__event--type2">
+    <div class="timeline__event__icon">
+      <i class="lni-burger"></i>
+
+    </div>
+    <div class="timeline__event__date">
+      20-08-2019
+    </div>
+    <div class="timeline__event__content">
+      <div class="timeline__event__title">
+        Lunch
+      </div>
+      <div class="timeline__event__description">
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel, nam! Nam eveniet ut aliquam ab asperiores, accusamus iure veniam corporis incidunt reprehenderit accusantium id aut architecto harum quidem dolorem in!</p>
+      </div>
+    </div>
+  </div>
+  <div class="timeline__event animated fadeInUp delay-1s timeline__event--type3">
+    <div class="timeline__event__icon">
+      <i class="lni-slim"></i>
+
+    </div>
+    <div class="timeline__event__date">
+      20-08-2019
+    </div>
+    <div class="timeline__event__content">
+      <div class="timeline__event__title">
+        Exercise
+      </div>
+      <div class="timeline__event__description">
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel, nam! Nam eveniet ut aliquam ab asperiores, accusamus iure veniam corporis incidunt reprehenderit accusantium id aut architecto harum quidem dolorem in!</p>
+      </div>
+
+    </div>
+  </div>
+  <div class="timeline__event animated fadeInUp timeline__event--type1">
+    <div class="timeline__event__icon">
+      <i class="lni-cake"></i>
+
+    </div>
+    <div class="timeline__event__date">
+      20-08-2019
+    </div>
+    <div class="timeline__event__content">
+      <div class="timeline__event__title">
+        Birthday
+      </div>
+      <div class="timeline__event__description">
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel, nam! Nam eveniet ut aliquam ab asperiores, accusamus iure veniam corporis incidunt reprehenderit accusantium id aut architecto harum quidem dolorem in!</p>
+      </div>
     </div>
   </div>
 
-  <div class="leftbox">
-    <nav>
-      <a id="dashboard"><i class="fas fa-tachometer-alt"></i></a>
-      <a id="profile"> <i class="fas fa-user"></i> </a>
-      <a id="settings"> <i class="fas fa-cog"></i> </a>
-      <a id="messages"> <i class="fas fa-comments"></i> </a>
-      <a id="notification"> <i class="fas fa-bell"></i> </a>
-    </nav>
-  </div>
-  <div class="rightbox">
-    <div class="rb-container">
-      <ul class="rb">
-        <li class="rb-item" ng-repeat="itembx">
-          <div class="timestamp">
-            Dec 2018<br>
-          </div>
-          <div class="item-title">Graduated from Dunman High School</div>
-
-        </li>
-        <li class="rb-item" ng-repeat="itembx">
-          <div class="timestamp">
-            Feb 2019<br>
-          </div>
-          <div class="item-title">Started internship at NUS Pro Bono Office</div>
-
-        </li>
-
-        <li class="rb-item" ng-repeat="itembx">
-          <div class="timestamp">
-            Aug 2019<br>
-          </div>
-          <div class="item-title">Started Undergraduate Studies in Nanyang Technological University (Data Science and AI)</div>
-
-        </li>
-
-        <li class="rb-item" ng-repeat="itembx">
-          <div class="timestamp">
-            May 2021 <br>
-          </div>
-          <div class="item-title">Started Internship at Kuok Group Singapore</div>
-
-        </li>
-
-      </ul>
-
-    </div>
-  </div>
 </div>
