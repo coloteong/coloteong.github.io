@@ -4,16 +4,10 @@ title: Experience
 permalink: /experience/
 ---
 <head>
-<link rel=“stylesheet” type=“text/css” href=“style.css” />
+<link rel=“stylesheet” type=“text/css” href=“experiencestyle.css” />
 </head>
-<div class="container">
 
-  <div class="box">
-    <div class="container-3">
-      <span class="icon"><i class="fa fa-search"></i></span>
-      <input type="search" id="search" placeholder="Search..." />
-    </div>
-  </div>
+<div class="container">
 
 
   <div class="rightbox">
