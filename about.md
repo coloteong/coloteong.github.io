@@ -4,8 +4,7 @@ title: About
 permalink: /about/
 ---
 
-## Academics ##
-
+## Academics 
 
  **August 2019 - Current**
 
@@ -15,14 +14,12 @@ _Nanyang Technological University_
 * Nanyang Scholar
 * Undergraduate Research Experience on Campus (URECA)
 
-
+<br/><br/>
 
 **January 2013 - November 2018**
 
 _Dunman High School_
-
 Integrated Programme 
-
 A Levels - 5 Distinctions
 * H2 Economics
 * H2 English Language and Linguistics
@@ -31,13 +28,13 @@ A Levels - 5 Distinctions
 * H1 General Paper
 * H1 Project Work
 
-
+<br/><br/>
 
 ### More Information
 
 You can take a look at my [resume](https://raw.githubusercontent.com/coloteong/coloteong.github.io/master/static/resume.pdf){:target="_blank"} for more information.
 
-
+<br/><br/>
 ### Contact Me
 
 [clau0011@e.ntu.edu.sg](mailto:clau0011@e.ntu.edu.sg)
