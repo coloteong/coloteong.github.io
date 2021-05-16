@@ -16,6 +16,7 @@ _Nanyang Technological University_
 * Undergraduate Research Experience on Campus (URECA)
 
 
+
 **January 2013 - November 2018**
 
 _Dunman High School_
@@ -29,12 +30,13 @@ A Levels - 5 Distinctions
 * H2 Mathematics
 
 
+
 ### More Information
 
 You can take a look at my [resume](https://raw.githubusercontent.com/coloteong/coloteong.github.io/master/static/resume.pdf){:target="_blank"} for more information.
 
 
-### Contact me
+### Contact Me
 
 [clau0011@e.ntu.edu.sg](mailto:clau0011@e.ntu.edu.sg)
 
