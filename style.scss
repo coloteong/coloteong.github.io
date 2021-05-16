@@ -19,9 +19,9 @@ html {
 }
 
 body {
-	background: rgba(129, 129, 129, 0.842);
+	background: rgba(219, 219, 219, 0.842);
   font: 18px/1.4;
-  color: rgb(9, 0, 129);
+  color: rgb(5, 0, 75);
 }
 
 .container {
@@ -69,11 +69,11 @@ p {
 }
 
 a {
-  color: $blue;
+  color: rgb(9, 0, 129);
   text-decoration: none;
 	cursor: pointer;
   &:hover, &:active {
-    color: $blue;
+    color: rgb(9, 0, 129);
   }
 }
 
