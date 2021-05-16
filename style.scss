@@ -19,7 +19,7 @@ html {
 }
 
 body {
-	background: rgba(143, 233, 255, 0.842);
+	background: rgba(159, 232, 250, 0.842);
   font: 18px/1.4;
   color: rgb(5, 0, 75);
 }
@@ -243,7 +243,7 @@ nav {
 
 .posts > .post {
   padding-bottom: 2em;
-  border-bottom: 1px solid $lightGray;
+  border-bottom: 1px solid rgb(0, 0, 0);
 }
 
 .posts > .post:last-child {
@@ -275,7 +275,7 @@ nav {
   margin-top: 50px;
   border-top: 1px solid #ddd;
   border-bottom: 1px solid #ddd;
-  background-color: $lightGray;
+  background-color: rgb(255, 255, 255);
 }
 
 footer {
