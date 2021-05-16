@@ -7,16 +7,21 @@ permalink: /about/
 ## Academics ##
 
 
- August 2019 - Current
- Nanyang Technological University
+ **August 2019 - Current**
+
+_Nanyang Technological University_
+
  Bachelor of Science (Hons), Data Science and Artificial Intelligence 
 * Nanyang Scholar
 * Undergraduate Research Experience on Campus (URECA)
 
 
-January 2013 - November 2018
-Dunman High School 
+**January 2013 - November 2018**
+
+_Dunman High School_
+
 Integrated Programme 
+
 A Levels - 5 Distinctions
 * H2 Economics
 * H2 English Language and Linguistics
