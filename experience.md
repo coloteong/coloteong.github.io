@@ -3,6 +3,8 @@ layout: page
 title: Experience
 permalink: /experience/
 ---
+
+<link rel=“stylesheet” type=“text/css” href=“experiencestyle.css” />
 <div class="container">
 
   <div class="box">

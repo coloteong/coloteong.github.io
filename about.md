@@ -19,7 +19,9 @@ _Nanyang Technological University_
 **January 2013 - November 2018**
 
 _Dunman High School_
+
 Integrated Programme 
+
 A Levels - 5 Distinctions
 * H2 Economics
 * H2 English Language and Linguistics
