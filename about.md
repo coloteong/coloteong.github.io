@@ -28,6 +28,8 @@ A Levels - 5 Distinctions
 * H2 English Language and Linguistics
 * H2 Chemistry
 * H2 Mathematics
+* H1 General Paper
+* H1 Project Work
 
 
 
