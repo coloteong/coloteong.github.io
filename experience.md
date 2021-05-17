@@ -3,7 +3,6 @@ layout: page
 title: Experience
 permalink: /experience/
 ---
-
 <head>
 still in progress...
 </head>
