@@ -313,7 +313,7 @@ body {
 		<div class="direction-l">
 			<div class="flag-wrapper">
 				<span class="flag">Undergraduate at NTU</span>
-				<span class="time-wrapper"><span class="time">2019 - Present</span></span>
+				<span class="time-wrapper"><span class="time">Aug 2019 - Present</span></span>
 			</div>
 			<div class="desc"> Bachelor of Science, Data Science and AI  </div>
 		</div>
