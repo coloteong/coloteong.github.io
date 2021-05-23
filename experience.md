@@ -301,7 +301,7 @@ body {
 	<li>
 		<div class="direction-r">
 			<div class="flag-wrapper">
-				<span class="flag">Intern at Kuok Group Singapore</span>
+				<span class="flag">Intern, Kuok Group Singapore</span>
 				<span class="time-wrapper"><span class="time">May 2021 - present</span></span>
 			</div>
 			<div class="desc"> Learnt Tableau to create a data dashboard</div>
@@ -323,7 +323,7 @@ body {
 	<li>
 		<div class="direction-r">
 			<div class="flag-wrapper">
-				<span class="flag">Intern at NUS Pro Bono Office</span>
+				<span class="flag">Intern, NUS Pro Bono Office</span>
 				<span class="time-wrapper"><span class="time">Feb 2019 - June 2019</span></span>
 			</div>
 			<div class="desc">Managed workshops with more than 200 external parties and Law students
