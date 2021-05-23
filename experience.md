@@ -292,10 +292,9 @@ body {
 }
 </style>
   
+## Here is a short timeline of my education and work experiences. I will be updating this timeline frequently! 😉 
 <!-- The Timeline -->
-<title>
-Here is a short timeline of my education and work experiences. I will be updating this timeline frequently! 😉 
-</title>
+
 
 <ul class="timeline">
 
