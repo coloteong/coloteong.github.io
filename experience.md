@@ -1,13 +1,15 @@
 ---
 layout: page
 title: Experience
-permalink: /experience/
+permalink: /experience/ 
 ---
+
 <style>
+
 body {	
   margin: 0;
   padding: 0;
-  background: rgba(207, 245, 255, 0.842);
+  background: rgba(207,245,255, 0.842);
   
   color: rgb(50,50,50);
   font-family: 'Ubuntu', sans-serif;
@@ -84,6 +86,7 @@ body {
   background: rgb(248,248,248);
   padding: 6px 10px;
   border-radius: 5px;
+  
   font-weight: 600;
   text-align: left;
 }
@@ -104,7 +107,7 @@ body {
 .direction-r .flag:before {
   position: absolute;
   top: 50%;
-  right: -40px;
+  right: -36px;
   content: ' ';
   display: block;
   width: 12px;
@@ -117,7 +120,7 @@ body {
 }
 
 .direction-r .flag:before {
-  left: -40px;
+  left: -36px;
 }
 
 .direction-l .flag:after {
