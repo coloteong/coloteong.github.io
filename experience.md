@@ -80,11 +80,10 @@ body {
 
 .flag {
   position: relative;
-  display: inline;
+  display: block;
   background: rgb(248,248,248);
   padding: 6px 10px;
   border-radius: 5px;
-  
   font-weight: 600;
   text-align: left;
 }
