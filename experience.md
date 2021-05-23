@@ -303,7 +303,7 @@ body {
 				<span class="flag">Intern at Kuok Group Singapore</span>
 				<span class="time-wrapper"><span class="time">May 2021 - present</span></span>
 			</div>
-			<div class="desc"> something something </div>
+			<div class="desc"> Used Tableau to create dashboards and visualise data in a meaningful way</div>
 		</div>
 	</li>
   
@@ -314,7 +314,8 @@ body {
 				<span class="flag">Undergraduate at NTU</span>
 				<span class="time-wrapper"><span class="time">Aug 2019 - Present</span></span>
 			</div>
-			<div class="desc"> Bachelor of Science, Data Science and AI  </div>
+			<div class="desc"> Bachelor of Science, Data Science and AI <br>
+            Nanyang Scholar  </div>
 		</div>
 	</li>
 
@@ -325,7 +326,7 @@ body {
 				<span class="flag">Intern at NUS Pro Bono Office</span>
 				<span class="time-wrapper"><span class="time">Feb 2019 - June 2019</span></span>
 			</div>
-			<div class="desc">Managed workshops with more than 200 external parties and Law students
+			<div class="desc">Managed workshops with more than 200 external parties and Law students <br>
                 Handled execution of event held at National Gallery, with important stakeholders like Mr Edwin Tong, then Minister of Law</div>
 		</div>
 	</li>
@@ -337,7 +338,8 @@ body {
 				<span class="flag">Studied at Dunman High School</span>
 				<span class="time-wrapper"><span class="time">2013 - 2018</span></span>
 			</div>
-			<div class="desc"> Integrated Programme, 5 Distinctions </div>
+			<div class="desc"> Integrated Programme <br>
+            5 Distinctions, A Levels</div>
 		</div>
 	</li>
   
