@@ -2,6 +2,9 @@
 layout: page
 title: Experience
 permalink: /experience/
+output:
+  html_document:
+    css: experiencestyle.css
 ---
 <head>
 still in progress...
