@@ -6,10 +6,6 @@ output:
   html_document:
     css: experiencestyle.css
 ---
-<head>
-still in progress...
-</head>
-
 <div class="container">
 
 
