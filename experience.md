@@ -2,187 +2,339 @@
 layout: page
 title: Experience
 permalink: /experience/
-output:
-  html_document:
-    css: experiencestyle.css
 ---
-
 <style>
-@import url("https://fonts.googleapis.com/css2?family=PT+Sans&display=swap");
+/* Media Queries */
+
+@mixin mq-xs {
+  @media (min-width: 320px) {
+    @content;
+  }
+}
+
+@mixin mq-sm {
+  @media (min-width: 480px) {
+    @content;
+  }
+}
+
+@mixin mq-md {
+  @media (min-width: 720px) {
+    @content;
+  }
+}
+
+@mixin mq-lg {
+  @media (min-width: 1000px) {
+    @content;
+  }
+}
+
+$background: rgba(207, 245, 255, 0.842);
+$box-shadow: 0px 1px 22px 4px rgba(0, 0, 0, 0.07);
+$border: 1px solid rgba(191, 191, 191, 0.4);
+$items: 5;
+$rows: ceil($items/2);
+
+/* Card sizing */
+
+$card-height: 400px;
+$card-width: 450px;
+$inner-margin: 15px;
+$number-size: 35px;
+$stagger: 180px;
+$outer-margin: 90px;
+$marker-size: 9px;
+
+/* Colors */
+
+$steps: #46b8e9;
+$colors: #46b8e9,
+#3ee9d1,
+#ce43eb,
+#4d92eb;
+$timeline: #bdbdbd;
+
+/* Calculations */
+
+$container-height: $rows * ($card-height + $outer-margin) + $stagger;
+$container-width: $card-width*2 + $outer-margin*3;
+$head-height: $number-size + 50;
+$body-height: $card-height - $head-height;
+$marker-dist: $card-width + $outer-margin/2 - $marker-size/2;
+
+/* Placeholders */
+
+@include mq-lg {
+  %arrow {
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 0;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+  }
+  %marker {
+    position: absolute;
+    content: "";
+    width: $marker-size;
+    height: $marker-size;
+    background-color: $timeline;
+    border-radius: $marker-size;
+    box-shadow: 0px 0px 2px 8px $background;
+  }
+}
+
+
+/* Some Cool Stuff */
+
+$counter: $items - $rows + 2;
+@for $i from 1 through $rows {
+  .demo-card:nth-child(#{$i*2-1})   { order: $i }
+  .demo-card:nth-child(#{$i*2})     { order: $counter }
+  $counter: $counter + 1;
+}
+
+/* Border Box */
+
+* {
+  box-sizing: border-box;
+}
+
+/* Fonts */
 
 body {
-  background: #e8cbc0;
+  font-family: 'Ubuntu', sans-serif;
 }
 
-.container {
-  background: #232931;
-  width: 540px;
-  height: 500px;
-  margin: 0 auto;
-  position: relative;
-  margin-top: 10%;
-  box-shadow: 2px 5px 20px rgba(119, 119, 119, 0.5);
-}
-
-.leftbox {
-  top: -5%;
-  left: 5%;
-  position: absolute;
-  width: 15%;
-  height: 110%;
-  background-color: #50d890;
-  box-shadow: 3px 3px 15px rgba(119, 119, 119, 0.5);
-}
-
-nav {
-  margin: 2.6em auto;
-}
-
-nav a {
-  list-style: none;
-  padding: 35px;
-  color: #232931;
-  font-size: 1.1em;
-  display: block;
-  transition: all 0.5s ease-in-out;
-}
-
-.rightbox {
-  padding: 0em 34rem 0em 0em;
-  height: 100%;
-}
-
-.rb-container {
-  font-family: "PT Sans", sans-serif;
-  width: 50%;
-  margin: auto;
-  display: block;
-  position: relative;
-}
-
-.rb-container ul.rb {
-  margin: 2.5em 0;
-  padding: 0;
-  display: inline-block;
-}
-
-.rb-container ul.rb li {
-  list-style: none;
-  margin: auto;
-  margin-left: 10em;
-  min-height: 50px;
-  border-left: 1px dashed #fff;
-  padding: 0 0 50px 30px;
-  position: relative;
-}
-
-.rb-container ul.rb li:last-child {
-  border-left: 0;
-}
-
-.rb-container ul.rb li::before {
-  position: absolute;
-  left: -18px;
-  top: -5px;
-  content: " ";
-  border: 8px solid rgba(255, 255, 255, 1);
-  border-radius: 500%;
-  background: #50d890;
-  height: 20px;
-  width: 20px;
-  transition: all 500ms ease-in-out;
-}
-
-.rb-container ul.rb li:hover::before {
-  border-color: #232931;
-  transition: all 1000ms ease-in-out;
-}
-
-ul.rb li .timestamp {
-  color: #50d890;
-  position: relative;
-  width: 100px;
-  font-size: 12px;
-}
-
-.item-title {
-  color: #fff;
-}
-
-.container-3 {
-  width: 5em;
-  vertical-align: right;
-  white-space: nowrap;
-  position: absolute;
-}
-
-.container-3 input#search {
-  width: 150px;
-  height: 30px;
-  background: #fbfbfb;
-  border: none;
-  font-size: 10pt;
-  color: #262626;
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  border-radius: 5px;
-  margin: 0.9em 0 0 28.5em;
-  box-shadow: 3px 3px 15px rgba(119, 119, 119, 0.5);
-}
-
-.container-3 .icon {
-  margin: 1.3em 3em 0 31.5em;
-  position: absolute;
-  width: 150px;
-  height: 30px;
-  z-index: 1;
-  color: #4f5b66;
-}
-
-input::placeholder {
-  padding: 5em 5em 1em 1em;
-  color: #50d890;
+#timeline {
+  padding: 100px 0;
+  background: $background;
+  border-top: $border;
+  border-bottom: $border;
+  h1 {
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 200;
+    margin-bottom: 20px;
+  }
+  p.leader {
+    text-align: center;
+    max-width: 90%;
+    margin: auto;
+    margin-bottom: 45px;
+  }
+  .demo-card-wrapper {
+    position: relative;
+    margin: auto;
+    @include mq-lg {
+      display: flex;
+      flex-flow: column wrap;
+      width: $container-width;
+      height: $container-height;
+      margin: 0 auto;
+    }
+    &::after {
+      z-index: 1;
+      content: "";
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 50%;
+      border-left: $border;
+      @include mq-lg {
+        border-left: 1px solid $timeline;
+      }
+    }
+  }
+  .demo-card {
+    position: relative;
+    display: block;
+    margin: 10px auto 80px;
+    max-width: 94%;
+    z-index: 2;
+    @include mq-sm {
+      max-width: 60%;
+      box-shadow: $box-shadow;
+    }
+    @include mq-md {
+      max-width: 40%;
+    }
+    @include mq-lg {
+      max-width: $card-width;
+      height: $card-height;
+      margin: $outer-margin;
+      margin-top: $outer-margin/2;
+      margin-bottom: $outer-margin/2;
+      &:nth-child(odd) {
+        margin-right: $outer-margin/2;
+        .head::after {
+          @extend %arrow;
+          border-left-width: 15px;
+          border-left-style: solid;
+          left: 100%;
+        }
+        .head::before {
+          @extend %marker;
+          left: $marker-dist + 1;
+        }
+      }
+      &:nth-child(even) {
+        margin-left: $outer-margin/2;
+        .head::after {
+          @extend %arrow;
+          border-right-width: 15px;
+          border-right-style: solid;
+          right: 100%;
+        }
+        .head::before {
+          @extend %marker;
+          right: $marker-dist - 1;
+        }
+      }
+      &:nth-child(2) {
+        margin-top: $stagger;
+      }
+    }
+    .head {
+      position: relative;
+      display: flex;
+      align-items: center;
+      color: #fff;
+      font-weight: 400;
+      .number-box {
+        display: inline;
+        float: left;
+        margin: $inner-margin;
+        padding: 10px;
+        font-size: $number-size;
+        line-height: $number-size;
+        font-weight: 600;
+        background: rgba(0, 0, 0, 0.17);
+      }
+      h2 {
+        text-transform: uppercase;
+        font-size: 1.3rem;
+        font-weight: inherit;
+        letter-spacing: 2px;
+        margin: 0;
+        padding-bottom: 6px;
+        line-height: 1rem;
+        @include mq-sm {
+          font-size: 165%;
+          line-height: 1.2rem;
+        }
+        span {
+          display: block;
+          font-size: 0.6rem;
+          margin: 0;
+          @include mq-sm {
+            font-size: 0.8rem;
+          }
+        }
+      }
+    }
+    .body {
+      background: #fff;
+      border: $border;
+      border-top: 0;
+      padding: $inner-margin;
+      @include mq-lg {
+        height: $body-height;
+      }
+      p {
+        font-size: 14px;
+        line-height: 18px;
+        margin-bottom: $inner-margin;
+      }
+      img {
+        display: block;
+        width: 100%;
+      }
+    }
+    @for $i from 1 through $items {
+      &--step#{$i} {
+        $color: nth($colors, ((($i - 1) % 4) + 1));
+        background-color: $color;
+        .head::after {
+          border-color: $color;
+        }
+      }
+    }
+  }
 }
 </style>
-<div class="container">
 
+<section id=timeline>
+	<h1>My Experience</h1>
+	<p class="leader">This is a short timeline of my education and internship experiences.</p>
+	<div class="demo-card-wrapper">
+		<div class="demo-card demo-card--step1">
+			<div class="head">
+				<div class="number-box">
+					<span>01</span>
+				</div>
+				<h2><span class="small">Dec 2018</span> Graduated from Dunman High School</h2>
+			</div>
+			<div class="body">
+				<p>Integrated Programme
+                5 Distinctions</p>
+				<img src="http://placehold.it/1000x500" alt="Graphic">
+			</div>
+		</div>
 
-  <div class="rightbox">
-    <div class="rb-container">
-      <ul class="rb">
-        <li class="rb-item" ng-repeat="itembx">
-          <div class="timestamp">
-            Dec 2018<br>
-          </div>
-          <div class="item-title">Graduated from Dunman High School</div>
+		<div class="demo-card demo-card--step2">
+			<div class="head">
+				<div class="number-box">
+					<span>02</span>
+				</div>
+				<h2><span class="small">Feb 2019</span> Started Internship at NUS Pro Bono Office</h2>
+			</div>
+			<div class="body">
+				<p>Managed workshops with more than 200 external parties and Law students
+                Handled execution of event held at National Gallery, with important stakeholders like Mr Edwin Tong, then Minister of Law</p>
+				<img src="http://placehold.it/1000x500" alt="Graphic">
+			</div>
+		</div>
 
-        </li>
-        <li class="rb-item" ng-repeat="itembx">
-          <div class="timestamp">
-            Feb 2019<br>
-          </div>
-          <div class="item-title">Started internship at NUS Pro Bono Office</div>
+		<div class="demo-card demo-card--step3">
+			<div class="head">
+				<div class="number-box">
+					<span>03</span>
+				</div>
+				<h2><span class="small">Aug 2019</span> Started Undergraduate Studies in Nanyang Technological University (Data Science and AI)</h2>
+			</div>
+			<div class="body">
+				<p>Will add something here later </p>
+				<img src="http://placehold.it/1000x500" alt="Graphic">
+			</div>
+		</div>
 
-        </li>
+		<div class="demo-card demo-card--step4">
+			<div class="head">
+				<div class="number-box">
+					<span>04</span>
+				</div>
+				<h2><span class="small">May 2021</span> Started Internship at Kuok Group Singapore</h2>
+			</div>
+			<div class="body">
+				<p>Will add something here later too</p>
+				<img src="http://placehold.it/1000x500" alt="Graphic">
+			</div>
+		</div>
 
-        <li class="rb-item" ng-repeat="itembx">
-          <div class="timestamp">
-            Aug 2019<br>
-          </div>
-          <div class="item-title">Started Undergraduate Studies in Nanyang Technological University (Data Science and AI)</div>
-
-        </li>
-
-        <li class="rb-item" ng-repeat="itembx">
-          <div class="timestamp">
-            May 2021 <br>
-          </div>
-          <div class="item-title">Started Internship at Kuok Group Singapore</div>
-
-        </li>
-
-      </ul>
-
-    </div>
-  </div>
-</div>
+		<div class="demo-card demo-card--step5">
+			<div class="head">
+				<div class="number-box">
+					<span>05</span>
+				</div>
+				<h2><span class="small">Subtitle</span> Conversion</h2>
+			</div>
+			<div class="body">
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta reiciendis deserunt doloribus consequatur, laudantium odio dolorum laboriosam.</p>
+				<img src="http://placehold.it/1000x500" alt="Graphic">
+			</div>
+		</div>
+    
+	</div>
+</section>
