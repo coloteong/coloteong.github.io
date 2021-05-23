@@ -304,7 +304,7 @@ body {
 				<span class="flag">Intern, Kuok Group Singapore</span>
 				<span class="time-wrapper"><span class="time">May 2021 - present</span></span>
 			</div>
-			<div class="desc"> Learnt Tableau to create a data dashboard</div>
+			<div class="desc"> something something </div>
 		</div>
 	</li>
   
@@ -312,10 +312,10 @@ body {
 	<li>
 		<div class="direction-l">
 			<div class="flag-wrapper">
-				<span class="flag">Undergraduate at NTU</span>
+				<span class="flag">Undergraduate at NTU, Data Science and AI </span>
 				<span class="time-wrapper"><span class="time">2019 - Present</span></span>
 			</div>
-			<div class="desc"> Bachelor of Science, Data Science and AI </div>
+			<div class="desc"> something something </div>
 		</div>
 	</li>
 
