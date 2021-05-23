@@ -7,4 +7,4 @@ Hello, I'm Claudia. I'm currently starting my 3rd year in Nanyang Technological 
 
 In my free time, I love to watch educational videos on linguistics, as well as music. I like to pick up new musical instruments too, I play the piano and a little bit of acoustic guitar, ukulele and cajon. I am also in my hall's Jam Band, and have led it for a year.
 
-Fun fact: the song that is embedded in this website is Claudia by Finneas!
+Fun fact: the song that is embedded in this website is **Claudia by Finneas**!
