@@ -300,19 +300,30 @@ Here is a short timeline of my education and work experiences. I will be updatin
 
 
 <ul class="timeline">
+	
+  <!-- Item 1 -->
+	<li>
+		<div class="direction-r">
+			<div class="flag-wrapper">
+				<span class="flag">Intern at Shopee (SEA Group) </span>
+				<span class="time-wrapper"><span class="time">Aug 2021 - Jun 2022</span></span>
+			</div>
+			<div class="desc"> Trained Machine Translation models on remote servers to improve translation quality, by reading articles from recent conferences such as ACL and EMNLP. Used state of the art model architectures such as Transformer and BERT</div>
+		</div>
+	</li>
 
-	<!-- Item 1 -->
+	<!-- Item 2 -->
 	<li>
 		<div class="direction-r">
 			<div class="flag-wrapper">
 				<span class="flag">Intern at Kuok Group Singapore</span>
-				<span class="time-wrapper"><span class="time">May 2021 - present</span></span>
+				<span class="time-wrapper"><span class="time">May 2021 - Aug 2021</span></span>
 			</div>
 			<div class="desc"> Used Tableau to create dashboards and visualise data in a meaningful way</div>
 		</div>
 	</li>
   
-	<!-- Item 2 -->
+	<!-- Item 3 -->
 	<li>
 		<div class="direction-l">
 			<div class="flag-wrapper">
@@ -324,7 +335,7 @@ Here is a short timeline of my education and work experiences. I will be updatin
 		</div>
 	</li>
 
-	<!-- Item 3 -->
+	<!-- Item 4 -->
 	<li>
 		<div class="direction-r">
 			<div class="flag-wrapper">
@@ -336,7 +347,7 @@ Here is a short timeline of my education and work experiences. I will be updatin
 		</div>
 	</li>
 
-    <!-- Item 4 -->
+    <!-- Item 5 -->
 	<li>
 		<div class="direction-l">
 			<div class="flag-wrapper">
