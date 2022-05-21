@@ -319,7 +319,7 @@ Here is a short timeline of my education and work experiences. I will be updatin
 				<span class="flag">Intern at Kuok Group Singapore</span>
 				<span class="time-wrapper"><span class="time">May 2021 - Aug 2021</span></span>
 			</div>
-			<div class="desc"> Used Tableau to create dashboards and visualise data in a meaningful way. Used Python to implement fuzzy logic to unstructured text data to find repetitions</div>
+			<div class="desc"> Used Tableau to create dashboards and visualise data in a meaningful way. <br> Used Python to implement fuzzy logic to unstructured text data to find repetitions</div>
 		</div>
 	</li>
   
