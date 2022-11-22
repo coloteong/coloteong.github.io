@@ -303,6 +303,17 @@ Here is a short timeline of my education and work experiences. I will be updatin
 	
   <!-- Item 1 -->
 	<li>
+		<div class="direction-r">
+			<div class="flag-wrapper">
+				<span class="flag"> Exchange Programme at UCLA </span>
+				<span class="time-wrapper"><span class="time">Jun 2022 - Jul 2022</span></span>
+			</div>
+			<div class="desc"> Took Statistics for Life and Health Sciences (A) and Introduction to Psychology course (A-). </div>
+		</div>
+	</li>
+
+  <!-- Item 2 -->
+	<li>
 		<div class="direction-l">
 			<div class="flag-wrapper">
 				<span class="flag">Intern at Shopee (SEA Group) </span>
@@ -312,7 +323,7 @@ Here is a short timeline of my education and work experiences. I will be updatin
 		</div>
 	</li>
 
-	<!-- Item 2 -->
+	<!-- Item 3 -->
 	<li>
 		<div class="direction-r">
 			<div class="flag-wrapper">
@@ -323,7 +334,7 @@ Here is a short timeline of my education and work experiences. I will be updatin
 		</div>
 	</li>
   
-	<!-- Item 3 -->
+	<!-- Item 4 -->
 	<li>
 		<div class="direction-l">
 			<div class="flag-wrapper">
@@ -335,7 +346,7 @@ Here is a short timeline of my education and work experiences. I will be updatin
 		</div>
 	</li>
 
-	<!-- Item 4 -->
+	<!-- Item 5 -->
 	<li>
 		<div class="direction-r">
 			<div class="flag-wrapper">
@@ -347,7 +358,7 @@ Here is a short timeline of my education and work experiences. I will be updatin
 		</div>
 	</li>
 
-    <!-- Item 5 -->
+    <!-- Item 6 -->
 	<li>
 		<div class="direction-l">
 			<div class="flag-wrapper">
