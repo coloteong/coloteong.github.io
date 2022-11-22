@@ -308,7 +308,7 @@ Here is a short timeline of my education and work experiences. I will be updatin
 				<span class="flag"> Exchange Programme at UCLA </span>
 				<span class="time-wrapper"><span class="time">Jun 2022 - Jul 2022</span></span>
 			</div>
-			<div class="desc"> Took Statistics for Life and Health Sciences (A) and Introduction to Psychology course (A-). </div>
+			<div class="desc"> Took Statistics for Life and Health Sciences (A) and Introduction to Psychology (A-). </div>
 		</div>
 	</li>
 
