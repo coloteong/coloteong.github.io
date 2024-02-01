@@ -9,4 +9,4 @@ Canada:
 ![resume.md]({{ site.baseurl }}/resume/RESUME_Canada.pdf)
 
 Singapore:
-![resume.md]({{ site.baseurl }}/resume/RESUME_Singapore.pdf)
+![resume.md]({{ site.baseurl }}/resume/RESUME__Singapore.pdf)
