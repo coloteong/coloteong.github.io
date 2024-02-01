@@ -5,8 +5,18 @@ permalink: /about/
 ---
 
 ## Academics 
+**Sept 2023 - Current**
 
- **August 2019 - Current**
+_University of British Columbia_
+
+ Master of Data Science (Computational Linguistics)
+* Master of Data Science - Computational Linguistics International Scholarship Receipient 
+
+<br/><br/>
+
+
+
+ **August 2019 - May 2023**
 
 _Nanyang Technological University_
 
